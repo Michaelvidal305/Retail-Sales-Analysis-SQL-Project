@@ -3,7 +3,7 @@
 -- How many sales we have?
 '''sql
 SELECT COUNT(*) as total_sale 
-FROM retail_sales
+FROM retail_sales;
 '''
 -- How many uniuque customers we have ?
 
