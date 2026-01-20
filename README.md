@@ -17,6 +17,7 @@ This project is designed to demonstrate SQL skills and techniques typically used
 
 •	**Table Creation:** A table named retail_sales is created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
 
+```sql
 CREATE DATABASE p1_retail_db;
 
 CREATE TABLE retail_sales
@@ -33,6 +34,7 @@ CREATE TABLE retail_sales
     cogs FLOAT,
     total_sale FLOAT
 ); 
+```
 
 ## 2. Data Exploration & Cleaning
 
@@ -201,12 +203,3 @@ This project serves as a comprehensive introduction to SQL for data analysts, co
 **3.	Run the Queries:** Use the SQL queries provided in the analysis_queries.sql file to perform your analysis.  
 
 **4.	Explore and Modify:** Feel free to modify the queries to explore different aspects of the dataset or answer additional business questions.  
-
-
----
-
-## 🖼️ 5. Add Images (diagrams, screenshots, logos)
-If you upload an image to your repo:
-
-```markdown
-![Retail Sales ERD](images/erd.png)
