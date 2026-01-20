@@ -1,10 +1,7 @@
-## SQL Retail Sales Analysis - P1
+-- SQL Retail Sales Analysis - P1
 
-'''sql
 CREATE DATABASE sql_project_p2;
-'''
 
-'''sql
 -- Create TABLE
 DROP TABLE IF EXISTS retail_sales;
 CREATE TABLE retail_sales
@@ -21,36 +18,25 @@ CREATE TABLE retail_sales
                 cogs	FLOAT,
                 total_sale FLOAT
             );
-'''
 
-'''sql
 SELECT * FROM retail_sales
 LIMIT 10;
-'''
 
-'''sql
 SELECT 
     COUNT(*) 
 FROM retail_sales
-'''
 
-## Data Cleaning
-'''sql
+-- Data Cleaning
+
 SELECT * FROM retail_sales
 WHERE transactions_id IS NULL;
-'''
 
-'''sql
 SELECT * FROM retail_sales
 WHERE sale_date IS NULL;
-'''
 
-'''sql
 SELECT * FROM retail_sales
 WHERE sale_time IS NULL;
-'''
 
-'''sql
 SELECT * FROM retail_sales
 WHERE 
     transaction_id IS NULL
@@ -68,9 +54,7 @@ WHERE
     cogs IS NULL
     OR
     total_sale IS NULL;
-'''
 
-'''sql
 DELETE FROM retail_sales
 WHERE 
     transaction_id IS NULL
@@ -88,4 +72,3 @@ WHERE
     cogs IS NULL
     OR
     total_sale IS NULL;
-'''
