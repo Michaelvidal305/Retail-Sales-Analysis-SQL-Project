@@ -156,7 +156,7 @@ GROUP BY 1, 2
 WHERE rank = 1;
 ```
 
-   **8.	**Write a SQL query to find the top 5 customers based on the highest total sales :**  
+   **8.	Write a SQL query to find the top 5 customers based on the highest total sales :**  
 
 ```sql
 SELECT 
@@ -211,9 +211,12 @@ GROUP BY shift;
 
 ## Reports
 
-**•	Sales Summary:** A detailed report summarizing total sales, customer demographics, and category performance.
-**•	Trend Analysis:** Insights into sales trends across different months and shifts.
+**•	Sales Summary:** A detailed report summarizing total sales, customer demographics, and category performance.  
+
+**•	Trend Analysis:** Insights into sales trends across different months and shifts.  
+
 **•	Customer Insights:** Reports on top customers and unique customer counts per category.  
+
 
 ## Conclusion
 
