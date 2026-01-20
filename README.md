@@ -10,7 +10,8 @@ This project is designed to demonstrate SQL skills and techniques typically used
 4.	**Business Analysis:** Use SQL to answer specific business questions and derive insights from the sales data.
 
 ## Project Structure
-**1. Database Setup**
+
+## 1. Database Setup**
    
 •	**Database Creation:** The project starts by creating a database named p1_retail_db.
 
@@ -33,7 +34,7 @@ CREATE TABLE retail_sales
     total_sale FLOAT
 ); 
 
-**2. Data Exploration & Cleaning**  
+## 2. Data Exploration & Cleaning
 
 •	**Record Count:** Determine the total number of records in the dataset.  
 
@@ -59,7 +60,8 @@ WHERE
     gender IS NULL OR age IS NULL OR category IS NULL OR 
     quantity IS NULL OR price_per_unit IS NULL OR cogs IS NULL;  
     
-**3. Data Analysis & Findings**
+## 3. Data Analysis & Findings**
+
 The following SQL queries were developed to answer specific business questions:  
 
    **1.	Write a SQL query to retrieve all columns for sales made on '2022-11-05:**  
